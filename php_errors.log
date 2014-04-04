@@ -1,0 +1,14 @@
+[22-Feb-2013 11:05:02] PHP Fatal error:  Call to undefined method JDate::toMySQL() in /var/www/ref/components/com_ref/controllers/page.php on line 94
+[22-Feb-2013 11:05:02] PHP Strict Standards:  Declaration of RefModelpage::prepareTable() should be compatible with that of JModelAdmin::prepareTable() in /var/www/ref/components/com_ref/models/page.php on line 19
+[22-Feb-2013 11:05:02] PHP Strict Standards:  Creating default object from empty value in /var/www/ref/components/com_ref/models/page.php on line 147
+[22-Feb-2013 11:05:02] PHP Notice:  Undefined variable: responsive in /var/www/ref/templates/astra/error.php on line 111
+[22-Feb-2013 11:05:02] PHP Notice:  Trying to get property of non-object in /var/www/ref/libraries/legacy/module/helper.php on line 150
+[22-Feb-2013 11:05:02] PHP Notice:  Trying to get property of non-object in /var/www/ref/libraries/legacy/module/helper.php on line 154
+[22-Feb-2013 11:05:02] PHP Notice:  Trying to get property of non-object in /var/www/ref/libraries/legacy/module/helper.php on line 160
+[22-Feb-2013 11:05:02] PHP Strict Standards:  Creating default object from empty value in /var/www/ref/libraries/legacy/module/helper.php on line 160
+[22-Feb-2013 11:05:02] PHP Notice:  Undefined property: stdClass::$content in /var/www/ref/templates/system/html/modules.php on line 17
+[22-Feb-2013 11:05:48] PHP Fatal error:  Call to undefined method JDate::toMySQL() in /var/www/ref/components/com_ref/controllers/page.php on line 94
+[22-Feb-2013 11:05:48] PHP Strict Standards:  Declaration of RefModelpage::prepareTable() should be compatible with that of JModelAdmin::prepareTable() in /var/www/ref/components/com_ref/models/page.php on line 19
+[22-Feb-2013 11:09:54] PHP Notice:  Undefined variable: responsive in /var/www/ref/templates/astra/index.php on line 105
+[22-Feb-2013 11:11:40] PHP Fatal error:  Call to undefined method JDate::toMySQL() in /var/www/ref/components/com_ref/controllers/page.php on line 94
+[22-Feb-2013 11:11:40] PHP Strict Standards:  Declaration of RefModelpage::prepareTable() should be compatible with that of JModelAdmin::prepareTable() in /var/www/ref/components/com_ref/models/page.php on line 19

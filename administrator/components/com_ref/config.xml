@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	
+	<fieldset name="BASIC">
+		
+		<field name="course_terms"
+			type="textarea"
+			label="Course Terms"
+			cols="40"
+			rows="5"
+			default="課程名稱, Course Name"
+		/>
+		
+		<field name="reference_terms"
+			type="textarea"
+			label="Reference Terms"
+			cols="40"
+			rows="5"
+			default="參考資料, Reference"
+		/>
+		
+		<field name="professors_titles"
+			type="textarea"
+			label="Professors Titles"
+			cols="40"
+			rows="5"
+			default="教授名稱, 教授, 教師, 老師, 教師名稱"
+		/>
+		
+		<field name="professors_titles_units"
+			type="text"
+			label="Professors Title Units"
+			default="5"
+		/>
+		
+		<field name="author_terms"
+			type="textarea"
+			label="Author Trems"
+			cols="40"
+			rows="5"
+			default="作者, 教授"
+		/>
+		
+	</fieldset>
+	
+	<fieldset name="permissions"
+		label="JCONFIG_PERMISSIONS_LABEL"
+		description="JCONFIG_PERMISSIONS_DESC"
+	>
+
+		<field name="rules"
+			type="rules"
+			label="JCONFIG_PERMISSIONS_LABEL"
+			validate="rules"
+			filter="rules"
+			component="com_contact"
+			section="component" />
+	</fieldset>
+
+</config>

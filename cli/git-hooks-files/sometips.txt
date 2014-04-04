@@ -1,0 +1,4 @@
+#MAMP User do before import sql 
+sudo mkdir /var/mysql
+sudo ln -s /Applications/MAMP/tmp/mysql/mysql.sock /var/mysql/mysql.sock
+

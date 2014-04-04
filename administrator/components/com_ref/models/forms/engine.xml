@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset name="information">
+
+        <field name="id" 
+			type="text" 
+			default="0" 
+			label="ID"
+        	readonly="true" 
+			class="readonly"
+        	description="JGLOBAL_FIELD_ID_DESC"
+		/> 
+
+        <field name="published"
+	        type="list"
+	        label="JSTATUS"
+	        description="JFIELD_PUBLISHED_DESC"
+	        class="readonly inputbox"
+	        size="1"
+	        default="1"
+			readonly="true"
+		>
+	        <option value="1">JPUBLISHED</option>
+	        <option value="0">JUNPUBLISHED</option>
+        </field>
+		
+		<field
+			   name="task_id"
+			   readonly="true"
+			   class="readonly"
+			   label="任務名稱"
+			   />
+		
+		<field
+			   name="engine"
+			   readonly="true"
+			   class="readonly"
+			   label="搜尋引擎"
+			   />
+		
+		<field
+			   name="page"
+			   readonly="true"
+			   class="readonly"
+			   label="頁數"
+			   />
+		
+		<field
+			   name="url"
+			   
+			   class="readonly"
+			   label="URL"
+			   disabled="true"
+			   
+			   />
+		
+		<field
+			   name="created"
+			   readonly="true"
+			   class="readonly"
+			   label="抓取時間"
+			   />
+		
+		<field
+			   name="status"
+			   readonly="true"
+			   class="readonly"
+			   label="狀態"
+			   />
+
+        <field name="checked_out" type="hidden" filter="unset" />
+    	<field name="checked_out_time" type="hidden" filter="unset" />
+
+	</fieldset>
+	
+	<fieldset>
+		<field
+		name="cache"
+		readonly="true"
+		class="readonly"
+			/>
+	</fieldset>
+	
+</form>

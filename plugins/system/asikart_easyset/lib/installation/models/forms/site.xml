@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Id: site.xml 21330 2011-05-11 04:18:33Z eddieajau $ -->
+<form>
+	<fieldset>
+		<field name="site_name" type="text" id="site_name" class="inputbox"
+			label="INSTL_SITE_NAME_LABEL"
+			required="true"
+		/>
+
+
+		<field name="admin_email" type="text" id="admin_email" class="inputbox" disabled="true"
+			label="INSTL_ADMIN_EMAIL_LABEL"
+			default="Not needed"
+		/>
+
+		<field name="admin_user" type="text" id="admin_user" class="inputbox" disabled="true"
+			label="INSTL_ADMIN_USER_LABEL"
+			default="Not needed"
+		/>
+
+		<field name="admin_password" type="password" id="admin_password" class="inputbox" disabled="true"
+			label="INSTL_ADMIN_PASSWORD_LABEL"
+			default="Not needed"
+		/>
+
+		<field name="admin_password2" type="password" id="admin_password2" class="inputbox" disabled="true"
+			label="INSTL_ADMIN_PASSWORD2_LABEL"
+			default="Not needed"
+		/>
+
+		<field name="sample_file" type="sample" class="inputbox" disabled="true"
+			label="INSTL_SITE_SAMPLE_LABEL"
+		/>
+
+		<field name="db_type" type="hidden" />
+
+		<field name="sample_installed" type="text" id="sample_installed" class="hidden"
+			label=""
+			default="0"
+		/>
+
+		<!-- Advanced Settings -->
+		<fieldset name="advanced">
+			<field name="site_metadesc" type="textarea" id="site_metadesc" class="text_area"
+				label="INSTL_SITE_METADESC_LABEL"
+				rows="3"
+			/>
+
+			<field name="site_metakeys" type="textarea" id="site_metakeys" class="text_area"
+				label="INSTL_SITE_METAKEYS_LABEL"
+				rows="3"
+			/>
+		</fieldset>
+	</fieldset>
+</form>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="1.6.0" method="upgrade">
+    <name>COM_JPRCCRON</name>
+    <creationDate>November 2009</creationDate>
+    <author>Prieco S.A.</author>
+    <authorEmail>support@prieco.com</authorEmail>
+    <authorUrl>www.prieco.com</authorUrl>
+    <copyright>Copyright (C) 2012 Prieco S.A. All rights reserved.</copyright>
+    <license>GNU General Public License version 3 or later; see LICENSE.txt</license>
+    <version>2.0</version>
+    <description>COM_JPRCCRON_DESCRIPTION</description>
+ 
+    <install>
+        <sql>
+            <file driver="mysql" charset="utf8">sql/install.mysql.utf8.sql</file>
+        </sql>
+    </install>
+    <uninstall>
+        <sql>
+            <file driver="mysql" charset="utf8">sql/uninstall.mysql.utf8.sql</file>
+        </sql>
+    </uninstall>
+    
+    <media destination="com_jprccron" folder="media">
+        <filename>index.html</filename>
+        <folder>images</folder>
+    </media>    
+ 
+    <administration>
+        <menu img="../media/com_jprccron/images/prieco-16x16.png">COM_JPRCCRON_MENU</menu>
+        <files folder="admin">
+            <filename>access.xml</filename>            
+            <filename>config.xml</filename>
+            <filename>controller.php</filename>
+            <filename>index.html</filename>
+            <filename>jprccron.php</filename>
+            
+            <folder>assets</folder>
+            <folder>controllers</folder>
+            <folder>images</folder>
+            <folder>models</folder>            
+            <folder>sql</folder>    
+            <folder>tables</folder>            
+            <folder>views</folder>       
+        </files>
+ 
+        <languages folder="admin">
+            <language tag="en-GB">language/en-GB/en-GB.com_jprccron.ini</language>
+            <language tag="en-GB">language/en-GB/en-GB.com_jprccron.sys.ini</language>
+        </languages>
+    </administration>
+ 
+	<!-- UPDATESERVER DEFINITION
+    <updateservers>
+        <server type="extension" priority="1" name="JPrcCron Update Site">http://www.prieco.com/update/jprccron-update.xml</server>
+    </updateservers>
+     -->
+ 
+</extension>

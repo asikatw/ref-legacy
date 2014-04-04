@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.0" method="upgrade">
+	<name>com_ref</name>
+    <author>Asikart.com</author>
+    <creationDate>2011-06-28</creationDate>
+    <copyright>(C) 2011 Asikart.com. All rights reserved.</copyright>
+    <license>GNU/GPL</license>
+    <authorEmail>asika@asikart.com</authorEmail>
+    <authorUrl>http://asikart.com</authorUrl>
+    <version>1.1</version>
+	
+	<administration>
+		<menu>COM_REF</menu>
+	</administration>
+</extension>

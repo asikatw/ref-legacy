@@ -1,0 +1,48 @@
+#!/bin/bash
+
+# delete old files
+rm -rf /var/www/cron/cronlog/*
+
+
+# getTasksFromEntry
+wget -P /var/www/cron/cronlogs "http://140.112.180.152/ref/index.php?option=com_ref&task=page.cronTest&method=getTasksFromEntry"
+wget -P /var/www/cron/cronlogs "http://140.112.180.152/ref/index.php?option=com_ref&task=entry.getTasksFromEntry"
+
+sleep 300s
+
+# ----
+
+# parseSearchPage
+wget -P /var/www/cron/cronlogs "http://140.112.180.152/ref/index.php?option=com_ref&task=page.cronTest&method=parseSearchPage"
+wget -P /var/www/cron/cronlogs "http://140.112.180.152/ref/index.php?option=com_ref&task=page.parseSearchPage"
+
+sleep 45s
+
+
+# ----
+
+# getResultPage
+wget -P /var/www/cron/cronlogs "http://140.112.180.152/ref/index.php?option=com_ref&task=page.cronTest&method=getResultPage"
+wget -P /var/www/cron/cronlogs "http://140.112.180.152/ref/index.php?option=com_ref&task=page.getResultPage"
+
+sleep 350s
+
+
+# getResultPage
+wget -P /var/www/cron/cronlogs "http://140.112.180.152/ref/index.php?option=com_ref&task=page.cronTest&method=getResultPage"
+wget -P /var/www/cron/cronlogs "http://140.112.180.152/ref/index.php?option=com_ref&task=page.getResultPage"
+
+sleep 350s
+
+# ----
+
+# parseResultPage
+wget -P /var/www/cron/cronlogs "http://140.112.180.152/ref/index.php?option=com_ref&task=page.cronTest&method=parseResultPage"
+wget -P /var/www/cron/cronlogs "http://140.112.180.152/ref/index.php?option=com_ref&task=page.parseResultPage"
+
+
+sleep 350s
+
+# parseResultPage
+wget -P /var/www/cron/cronlogs "http://140.112.180.152/ref/index.php?option=com_ref&task=page.cronTest&method=parseResultPage"
+wget -P /var/www/cron/cronlogs "http://140.112.180.152/ref/index.php?option=com_ref&task=page.parseResultPage"

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="1.6">
+<name>Cronjob Scheduler</name>
+<packagename>jprcron</packagename>
+<version>1.0</version>
+<url></url>
+<packager></packager>
+<packagerurl></packagerurl>
+<description><![CDATA[
+JPrc Cron is a Joomla package (a component and a plugin) for Cron Jobs Management and Scheduling.
+]]></description>
+<files>
+        <file type="" client="component" id="com_jprccron">com_jprccron.zip</file>
+        <file type="" client="plugin" id="plg_jprcron">plg_jprcron.zip</file>
+</files>
+</extension>

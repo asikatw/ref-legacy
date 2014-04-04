@@ -1,0 +1,75 @@
+/* ASIKART EasySet Custom CSS */
+
+
+/* GLOBAL */
+div.width-20 fieldset, div.width-30 fieldset, div.width-35 fieldset, div.width-40 fieldset,
+div.width-45 fieldset, div.width-50 fieldset, div.width-55 fieldset, div.width-60 fieldset, 
+div.width-65 fieldset, div.width-70 fieldset, div.width-80 fieldset, div.width-100 fieldset {
+	border:1px solid #ccc;
+	padding:15px !important;
+}
+
+/* BODY */
+
+
+/* TYPO */
+
+
+/* LAYOUT */
+
+
+/* HEADER */
+
+
+/* BANNER */
+
+
+/* MENU */
+
+
+/* MAIN CONTENT */
+div.toolbar-list ul li.button {
+	padding:0 10px;
+	margin:0;
+	background:none;
+	border:none;
+	overflow:visible;
+	font-size:12px;
+	text-shadow:none;
+}
+
+div.toolbar-list ul li.button a {
+	background:0;
+}
+
+.ref-toolbar {
+	margin:15px 0;
+	border:1px solid #ccc;
+	border-radius:5px;
+	padding:10px;
+}
+
+#ref-panel-wrap li {
+	background:none;
+}
+
+#ref-panel-wrap fieldset.panelform {
+	border:1px solid #ccc;
+	margin:5px;
+}
+
+/* LEFT COLUMN */
+
+
+/* RIGHT COLUMN */
+
+
+/* ARTICLE */
+
+
+/* TABLE */
+
+
+/* FOOTER */
+
+

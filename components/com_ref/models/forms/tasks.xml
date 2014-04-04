@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset name="search">
+	
+		<field name="field"
+			type="list"
+			default="name"
+			label="Search"
+			class="span1"
+		>
+			<!--<option value="0">Select Column</option>-->
+			<option value="name">Project Name</option>
+			<option value="engine">Search Engine</option>
+		</field>
+		
+		<field name="index"
+			type="text"
+			label=""
+		/>
+	</fieldset>
+	
+	<fieldset name="filter">
+		
+	</fieldset>
+</form>

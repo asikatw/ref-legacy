@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.6//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension
+	type="template"
+	version="2.5"
+	client="site">
+	<name>Clarification</name>
+	<creationDate>18/03/11</creationDate>
+	<author>James Bonham</author>
+	<authorEmail>contact@fourwentways.com</authorEmail>
+	<authorUrl>http://www.fourwentways.com</authorUrl>
+	<copyright></copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<version>1.0</version>
+	<description>Clarification is a heavily modified version of the default template, BlueStork. The focus is on reducing the boxed-in feeling, maximising the use of space and clarifying the navigation and toolbar. For updates, other products and donations, go to www.fourwentways.com.</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>login.php</filename>
+		<filename>component.php</filename>
+		<filename>cpanel.php</filename>
+		<filename>error.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>index.html</filename>
+		<filename>params.ini</filename>
+		<filename>template_preview.png</filename>		
+		<filename>template_thumbnail.png</filename>
+		<filename>templateDetails.xml</filename>
+		<folder>images</folder>
+		<folder>js</folder>
+		<folder>css</folder>
+		<folder>html</folder>
+	</files>
+	<positions>
+		<position>menu</position>
+		<position>submenu</position>
+		<position>toolbar</position>
+		<position>title</position>
+		<position>status</position>
+		<position>icon</position>
+		<position>cp_shell</position>
+		<position>cpanel</position>
+		<position>footer</position>
+		<position>login</position>
+		<position>debug</position>
+	</positions>
+	
+	<languages folder="language">
+		<language tag="en-GB">en-GB.tpl_clarification.ini</language>
+		<language tag="en-GB">en-GB.tpl_clarification.sys.ini</language>
+		<language tag="en-US">en-US.tpl_clarification.ini</language>
+		<language tag="en-US">en-US.tpl_clarification.sys.ini</language>
+	</languages>
+	
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field
+					name="showSiteName"
+					type="list"
+					default="1"
+					label="TPL_CLARIFICATION_FIELD_SITENAME_LABEL"
+					description="TPL_CLARIFICATION_FIELD_SITENAME_DESC">
+					<option
+						value="0">JDISABLED</option>
+					<option
+						value="1">JENABLED</option>
+				</field>
+
+				<field
+					name="textBig"
+					type="list"
+					default="0"
+					label="TPL_CLARIFICATION_FIELD_TEXTBIG_LABEL"
+					description="TPL_CLARIFICATION_FIELD_TEXTBIG_DESC">
+					<option
+						value="0">JDISABLED</option>
+					<option
+						value="1">JENABLED</option>
+				</field>
+				
+				<field
+					name="statusPosition"
+					type="list"
+					default="0"
+					label="TPL_CLARIFICATION_FIELD_STATUSPOSITION_LABEL"
+					description="TPL_CLARIFICATION_FIELD_STATUSPOSITION_DESC">
+					<option
+						value="0">JDISABLED</option>
+					<option
+						value="1">JENABLED</option>
+				</field>
+
+			</fieldset>
+		</fields>
+	</config>
+</extension>
